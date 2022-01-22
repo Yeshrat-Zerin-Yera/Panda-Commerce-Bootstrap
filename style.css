@@ -1,0 +1,32 @@
+/* Google-Fonts */
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+/* Color */
+.light-pink{
+    color: #FEEAE9;
+}
+.dark{
+    color: #1F1F1F;
+}
+.gray{
+color: #4E4E4E;
+}
+.rosy-pink{
+    color: #FF136F;
+}
+.normal-pink{
+    color: #FF589B;
+}
+.normal-orange{
+    color: #FF9D00;
+}
+.linear-orange{
+    background-image: linear-gradient(#FF9C35, #FFD019);
+}
+.linear-blue{
+    background-image: linear-gradient(#4289FF, #3F07F8);
+}
