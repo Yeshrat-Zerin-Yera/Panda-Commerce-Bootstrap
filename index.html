@@ -16,9 +16,269 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/e78db96a26.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
+        <!-- Nav-Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 p-2 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#backpack">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Image-Slide -->
+        <section class="container pt-5 pb-5 mt-5" id="home">
+            <div id="carouselExampleControls" class="carousel slide border rounded-3" data-bs-ride="carousel">
+                <!-- Carousel-Inner-->
+                <div class="carousel-inner">
+                    <!-- Item-1 -->
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center light-pink p-5">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-12 p-3">
+                                <h1 class="poppins dark">X-Box for your living room</h1>
+                                <p class="inter gray">This is the best x-box in the world for people who just want to
+                                    waste time in front
+                                    of fake sports.
+                                </p>
+                                <h1 class="rosy-pink">$600</h1>
+                                <button class="btn linear-pink text-white inter">Buy Now <i
+                                        class="fas fa-angle-right"></i></button>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-12 p-3">
+                                <img src="xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item-2 -->
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center light-pink p-5">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-12 p-3">
+                                <h1 class="poppins dark">Mega LCD TV For Sports</h1>
+                                <p class="inter gray">This is the best tv in the world for people who just want to waste
+                                    time in front of tv.
+                                </p>
+                                <h1 class="rosy-pink">$1200</h1>
+                                <button class="btn linear-pink inter">Buy Now <i
+                                        class="fas fa-angle-right"></i></button>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-12 p-3">
+                                <img src="tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item-3 -->
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center light-pink p-5">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-12 p-3">
+                                <h1 class="poppins dark">Cool Dude Headphone</h1>
+                                <p class="inter gray">This is the best headphone in the world for people who just want
+                                    to waste time in front of funky world.
+                                </p>
+                                <h1 class="rosy-pink">$420</h1>
+                                <button class="btn linear-pink inter">Buy Now <i
+                                        class="fas fa-angle-right"></i></button>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-12 p-3">
+                                <img src="headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- First-Button -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <!-- Second-Button -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Categories -->
+        <section class="container pt-5 pb-5">
+            <!-- Title -->
+            <h1 class="poppins dark pb-3">Categories</h1>
+            <!-- Item-1 -->
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="p-3 linear-orange border rounded-3 d-flex align-items-center justify-content-evenly">
+                        <h1 class="poppins text-white img-fluid">Watch</h1>
+                        <img class="w-25" src="watch.png" alt="">
+                    </div>
+                </div>
+                <!-- Item-2 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="p-3 white-pink border rounded-3 d-flex align-items-center justify-content-evenly">
+                        <h1 class="poppins text-white img-fluid">Bag</h1>
+                        <img class="w-25" src="bag.png" alt="">
+                    </div>
+                </div>
+                <!-- Item-3 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="p-3 linear-blue border rounded-3 d-flex align-items-center justify-content-evenly">
+                        <h1 class="poppins text-white img-fluid">Shoes</h1>
+                        <img class="w-25" src="shoes.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Shoes -->
+        <section class="container pt-5 pb-5" id="shoes">
+            <!-- Title -->
+            <h1 class="poppins dark pb-3">Shoes</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Item-1 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title poppins dark">Supply 350</h4>
+                            <p class="card-text inter gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consectetur
+                                illum dolor quaerat.</p>
+                            <h4 class="card-title">$120</h4>
+                            <a href="#" class="btn linear-pink text-white inter">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-2 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title poppins dark">Nike 360</h4>
+                            <p class="card-text inter gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consectetur
+                                illum dolor quaerat.</p>
+                            <h4 class="card-title">$320</h4>
+                            <a href="#" class="btn linear-pink text-white inter">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-3 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title poppins dark">Red Airmax</h4>
+                            <p class="card-text inter gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consectetur
+                                illum dolor quaerat.</p>
+                            <h4 class="card-title">$350</h4>
+                            <a href="#" class="btn linear-pink text-white inter">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Backpack -->
+        <section class="container pt-5 pb-5" id="backpack">
+            <!-- Title -->
+            <h1 class="poppins dark pb-3">Backpack</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Item-1 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title poppins dark">Ison Backpack</h4>
+                            <p class="card-text inter gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consectetur
+                                illum dolor quaerat.</p>
+                            <h4 class="card-title">$1289</h4>
+                            <a href="#" class="btn linear-pink text-white inter">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-2 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title poppins dark">Biaowang Backpack</h4>
+                            <p class="card-text inter gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consectetur
+                                illum dolor quaerat.</p>
+                            <h4 class="card-title">$799</h4>
+                            <a href="#" class="btn linear-pink text-white inter">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-3 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title poppins dark">Dxyizu WS54 Smart</h4>
+                            <p class="card-text inter gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consectetur
+                                illum dolor quaerat.</p>
+                            <h4 class="card-title">$699</h4>
+                            <a href="#" class="btn linear-pink text-white inter">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Subscribe -->
+        <section class="container pt-5 pb-5" id="subscribe">
+            <div style="height: 450px;"
+                class="d-flex align-items-center justify-content-center light-pink border rounded-3">
+                <div>
+                    <h1 class="poppins dark">LET'S STAY IN TOUCH</h1>
+                    <p class="inter gray">Get updates on sales, specials and more
+                    </p>
+                    <form class="d-flex align-itens-center" action="">
+                        <input class="border-0 p-2 inter gray" type="email" name="" id=""
+                            placeholder="Enter your email">
+                        <a href="#" class="btn linear-pink text-white inter m-0">Send</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="container pt-5">
+        <p class="inter gray text-center"><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+        </p>
+    </footer>
     <!-- Javascrips -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

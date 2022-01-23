@@ -6,23 +6,26 @@
     font-family: 'Poppins', sans-serif;
 }
 /* Color */
-.light-pink{
-    color: #FEEAE9;
-}
 .dark{
     color: #1F1F1F;
 }
 .gray{
 color: #4E4E4E;
 }
+.light-pink{
+    background-color: #FEEAE9;
+}
 .rosy-pink{
     color: #FF136F;
 }
-.normal-pink{
-    color: #FF589B;
+.white-pink{
+    background-color: #F178B6;
 }
 .normal-orange{
     color: #FF9D00;
+}
+.linear-pink{
+    background-image: linear-gradient(#FF136F, #FF589B);
 }
 .linear-orange{
     background-image: linear-gradient(#FF9C35, #FFD019);
